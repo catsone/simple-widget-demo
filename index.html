@@ -15,36 +15,31 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark justify-content-between">
-
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#"><img src="atomic-search.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Jobs</a>
-                </li>
-            </ul>
-        </div>
+    <nav>
+            <img src="atomic-search.png">
     </nav>
 
-    <div id="content" class="container">
-        <div class="row">
-            <h1>We're excited to meet you!</h1>
-            <p>At Atomic, we're dedicated to the idea that there's a perfect fit for everyone — a place where they can make an explosive difference! Here are our current openings. If you see anything that interests you, feel free to apply. We'll have a representative reach out right away.</p>
+    <div id="header" class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">We're excited to meet you!</h1>
+            <p class="lead">At Atomic, we're dedicated to the idea that there's a perfect fit for everyone — a place where they can make an explosive difference! Here are our current openings. If you see anything that interests you, feel free to apply. We'll have a representative reach out right away.</p>
         </div>
-        <script> window.cjw=window.cjw||function(){(cjw.instance=cjw.instance||[]).push(arguments[0])}; cjw({"id":83228,"domain":"catsone.com","target":"#cats-portal-widget"}); </script> <script async src="https://app.catsone.com/resources/entry-jobwidget.js"></script>
-
     </div>
-</body>
-
-</html>
+    
+        <div id="content" class="container">
+        <!-- Start CATS job widget -->
+        <div id="cats-portal-widget"></div>
+        <script>
+            window.cjw = window.cjw || function() {
+                (cjw.instance = cjw.instance || []).push(arguments[0])
+            };
+            cjw({
+                "id": 83228,
+                "domain": "catsone.com",
+                "target": "#cats-portal-widget"
+            });
+        </script>
+        <script async src="https://app.catsone.com/resources/entry-jobwidget.js"></script>
+        <!-- End CATS job widget -->        
+        </div>
+</body></html>
