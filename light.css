@@ -1,0 +1,46 @@
+nav {
+    background-color: #2a2f4a;
+    color: white;
+    padding: 20px;
+}
+
+nav p {
+    display: inline;
+    margin: auto 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+nav img {
+    width: 300px;
+}
+
+/*CATS Widget Styles*/
+
+.cats-multiselect-option, #cats-multiselect-search-location, #cats-multiselect-search-category {
+    background-color: #fff;
+}
+.cats-job .cats-job-title a:hover {
+    color: rgb(173, 239, 253);
+}
+
+.cats-job .cats-job-category,
+.cats-job .cats-job-location {
+    color: inherit;
+}
+
+.cats-job-list h4 {
+    font-weight: 300;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted rgba(0,0,0,0.2);
+}
+
+.cats-job-list h4 {
+    margin-top: 2em;
+}
+
+.cats-powered-by, .cats-powered-by a {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+}
